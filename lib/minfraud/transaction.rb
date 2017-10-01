@@ -67,7 +67,7 @@ module Minfraud
     # Ensures the required attributes are present
     # @return [Boolean]
     def has_required_attributes?
-      ip and city and state and postal and country
+      ip and city and postal and country
     end
 
     # Validates the types of the attributes
